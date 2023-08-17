@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #F6F7F9;
+    font-family: 'Plus Jakarta Sans', sans-serif ;
+}
+
+.header{
+    width: 100;
+    background-color: white;
+    padding: 40px  60px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.header h2{
+    color: #3563E9;
+    font-weight: 450;
+    font-size: 32px;
+    background: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .search{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 70px;
+    border: 0.50px rgba(195, 212, 233, 0.40) solid;
+    background: none;
+    margin-bottom: none;
+    padding-bottom: none;
+}
+
+.header .search form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px ;
+}
+
+.search, form, img, button[type=submit], input[type=text] {
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.search form input[type=text]{
+    outline: none;
+    border: none;
+    background: none;
+    width: 350px;
+    padding-left: 15px;
+}
+
+.header .search form input[type=text]{
+    height: 24px;
+}
+
+.header .search form button img {
+    margin-top: 5px;
+}
+
+.header .icons button{
+    border: none;
+}
+
+.header .icons , button{
+    background: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+main{
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    width: 80vw;
+}
