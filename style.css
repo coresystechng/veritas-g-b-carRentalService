@@ -96,6 +96,7 @@ main{
     align-items: center;
     flex-direction: row;
     padding-top: 28px;
+    padding-bottom: 36px;
 }
 
 .ad1{
@@ -113,3 +114,16 @@ main{
     outline: none;
 }
 
+.details{
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 28px;
+    padding-bottom: 36px;
+}
+
+.details .shuffle{
+    background: none;
+}
