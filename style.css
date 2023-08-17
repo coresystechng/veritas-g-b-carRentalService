@@ -77,6 +77,7 @@
     padding-right: 10px;
 }
 
+/* Main Styling */
 main{
     width:100vw;
     display: flex;
@@ -87,3 +88,28 @@ main{
 .main{
     width: 80vw;
 }
+
+.ads{
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 28px;
+}
+
+.ad1{
+    width: 640px;
+    height: 360px;
+}
+
+.ad2{
+    width: 640px;
+    height: 360px;
+}
+
+.ads, .ad1, .ad2, button{
+    border: none;
+    outline: none;
+}
+
