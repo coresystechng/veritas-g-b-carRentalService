@@ -1,129 +1,100 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: #F6F7F9;
-    font-family: 'Plus Jakarta Sans', sans-serif ;
+    font-family: cursive
 }
-
 .header{
-    width: 100;
-    background-color: white;
-    padding: 40px  60px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+    background-color: blue;  
 }
 
-.header h2{
-    color: #3563E9;
-    font-weight: 450;
-    font-size: 32px;
-    background: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+h2{
+    text-align: center;
 }
-
-.header .search{
+.nav{
+    display: flex;
+    
+}
+.nav a{
+    color: white;
+    text-decoration: none;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    border-radius: 70px;
-    border: 0.50px rgba(195, 212, 233, 0.40) solid;
-    background: none;
-    margin-bottom: none;
-    padding-bottom: none;
 }
-
-.header .search form{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 5px 10px ;
-}
-
-.search, form, img, button[type=submit], input[type=text] {
-    outline: none;
-    border: none;
-    background: none;
-}
-
-.search form input[type=text]{
-    outline: none;
-    border: none;
-    background: none;
-    width: 350px;
-    padding-left: 15px;
-}
-
-.header .search form input[type=text]{
-    height: 24px;
-}
-
-.header .search form button img {
-    margin-top: 5px;
-}
-
-.header .icons button{
-    border: none;
-}
-
-.header .icons , button{
-    background: none;
+.login{
+    margin-left: 180px;
     padding-left: 10px;
     padding-right: 10px;
+    background-color: blue;
+    color: aliceblue;
 }
-
-/* Main Styling */
-main{
-    width:100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.login:hover{
+    background-color: lightblue;
 }
-
-.main{
-    width: 80vw;
+a:hover{
+    color:lightblue;
+    text-decoration: overline;
 }
-
-.ads{
-    gap: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    padding-top: 28px;
-    padding-bottom: 36px;
+li{
+    display: inline-flex;
+    padding-left: 180px;
+    align-content: center;
+    margin-top: 50px;
 }
-
-.ad1{
-    width: 640px;
-    height: 360px;
+.writing{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: white;
+    color: black;
+    margin-left: 50px;
+    margin-right: 700px;
+    border-width: 20px ;
+    margin-top:2px;
+    margin-bottom: 3px;
 }
-
-.ad2{
-    width: 640px;
-    height: 360px;
+.image{
+    background-image: url(img/car3.jpeg);
+    width: 100vw;
+    height: 40vh;
+    text-align: left;
+    padding-top: 200px;
+    padding-bottom: 250px;
 }
+.form{
+    display: grid;
+    padding-top: 50px;
+    padding-bottom: 90px;
+    margin-top: 80px;
+    border: 3px white groove;
+    background-color: blue;
 
-.ads, .ad1, .ad2, button{
-    border: none;
-    outline: none;
+    
 }
-
-.details{
-    gap: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    padding-top: 28px;
-    padding-bottom: 36px;
+.sign{
+    padding-left: 30px;
+    background-color: white;
 }
+.form1{
+    margin-left: 500px;
+    margin-right: 0px;
+    padding-left: 500px;
+}
+#input{
+    margin-right: 1500px;
+    margin-left: 15px;   
+}
+.about{
+    text-align: center;
+    margin-left: 90px;
+    color: white;
+    background-color: blue;
+}
+.pictures:hover{
+    animation: forwards;
 
-.details .shuffle{
-    background: none;
+}
+footer{
+    color: white;
+    background-color: blue;
+    text-align: center;
+    
 }
